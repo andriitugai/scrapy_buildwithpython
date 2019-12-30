@@ -1,0 +1,10 @@
+1. pip install pipenv
+2. virtualenv .
+3. Activate virtualenv:
+    Windows:        .\Scripts\activate
+    Linux, MacOS:   ./bin/activate
+4. pip freeze --> empty
+5. pip install scrapy
+6. scrapy startproject <projectname>
+
+scrapy crawl quotes -o items.csv
